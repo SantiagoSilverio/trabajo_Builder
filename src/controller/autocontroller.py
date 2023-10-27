@@ -1,3 +1,4 @@
+
 class CarHandler:
     def __init__(self, next_handler=None):
         self.next_handler = next_handler
@@ -10,3 +11,5 @@ class CarHandler:
             self.next_handler.handle_request(car)
         else:
             print("Solicitud no manejada.")
+            
+

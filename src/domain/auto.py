@@ -6,4 +6,4 @@ class AutoModel:
 
 
     def __str__(self):
-        return f"auto: {self.marca} {self.color}, puertas: {self.puertas}"
+        return f"auto: marca {self.marca} de color {self.color} con {self.puertas} puertas"

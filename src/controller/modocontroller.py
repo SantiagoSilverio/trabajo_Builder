@@ -1,0 +1,1 @@
+mododeuso = (input("¿que desea hacer? (Compra/Agregar) : "))
