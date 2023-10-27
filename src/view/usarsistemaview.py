@@ -1,13 +1,13 @@
 from domain.solicitudmarca import solicitud
 from domain.createauto import createauto
-from controller.modocontroller import mododeuso
+from view.modoview import modo
 
-if mododeuso == "comprar":
+if modo == "comprar":
         def main():
 
                 marca = solicitud.main()
                 print(marca)
-elif mododeuso == "agregar":   
+elif modo == "agregar":   
         def main():
             
                 auto = createauto.main()
